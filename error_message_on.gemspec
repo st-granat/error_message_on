@@ -4,6 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'error_message_on/version'
 
 Gem::Specification.new do |gem|
+  gem.license       = "MIT"
   gem.name          = "error_message_on"
   gem.version       = ErrorMessageOn::VERSION
   gem.authors       = ["Andrey"]
