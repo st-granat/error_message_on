@@ -11,7 +11,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["railscode@gmail.com"]
   gem.description   = "Single error message for Rails Form"
   gem.summary       = "Single error message for Rails Form"
-  gem.homepage      = "https://github.com/vav/error_message_on"
+  gem.homepage      = "https://github.com/st-granat/error_message_on"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
